@@ -1,0 +1,29 @@
+# Environment variables - never commit this file
+.env
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Vector store data (large binary files)
+data/vectorstore/
+
+# Uploaded documents (user-specific)
+data/documents/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Distribution
+*.egg-info/
+dist/
+build/
